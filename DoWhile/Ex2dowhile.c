@@ -29,7 +29,7 @@ int main(){
 		printf("Nao faz parte de nenhum intervalo.\n");
 	}
 	
-	}while(num > 0);
+	}while(num >= 0);
 		
 	printf("\nTotal de numero no intervalo [0,25]: %d\nTotal de numero no intervalo [26,50]: %d\nTotal de numero no intervalo [51,75]: %d\nTotal de numero no intervalo [76,100]: %d\n", cont1, cont2, cont3, cont4);
 	
