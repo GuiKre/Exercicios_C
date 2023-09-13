@@ -9,11 +9,11 @@ int main(){
 		scanf("%d", &num);
 		
 		if(num < 0){
-			printf("Valor invalido!");
-			return 1;
+			printf("Valor invalido!\n");
+			break;
 		}
 		
-		if(num > 0){
+		else if(num > 0){
 		
 			if(primeiro == 1){
 				menor = num;
@@ -24,7 +24,7 @@ int main(){
 				if(num < menor){
 				menor = num;
 				}
-				if(num > maior){
+				else if(num > maior){
 				maior = num;
 				}
 			}

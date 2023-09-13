@@ -2,7 +2,7 @@
 
 int main(){
 	
-	int cont, num, erro = 0;
+	int cont, num, erro;
 	double resultado = 1.0;
 	
 	do{
