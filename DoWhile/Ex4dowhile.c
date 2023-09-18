@@ -17,7 +17,7 @@ int main(){
 	
 	media = somanum/cont;
 	
-	printf("A media de todos os numeros digitados eh: %.0f", media);
+	printf("A media de todos os numeros digitados eh: %.2f", media);
 	
 	return 0;
 }

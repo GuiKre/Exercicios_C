@@ -2,19 +2,21 @@
 
 int main(){
 	
-	int num, i, j = 0, ponto = 0;
+	int num, i, linhas;
 	
 	printf("Digite o numero de linhas que se tornarao *: ");
 	scanf("%d", &num);
 	
-	
-	
-	do{
-		for(i = 0; i < num; i++){
-			ponto = ponto + 1;
-			printf("%d", ponto);
+	if(num<=0){
+		printf("Numero invalido.\n");
+		return 1;
+	}	
+	for(linhas=1; linhas<=num; linhas++){
+		for(i=1; i<=linhas; i++){
+			printf("*");
 		}
-		j++;
-	}while(j < num);
+		printf("\n");
+	}
+	
 	return 0;
 }
