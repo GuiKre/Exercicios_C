@@ -17,7 +17,7 @@ int main(){
 	tam=strlen(palavra);
 	printf("Tamanho: %d\n", tam);
 	
-	for(i=0;i<tam-1;i++){
+		for(i=0;i<tam-1;i++){
 		if(palavra[i]==letra){
 			printf("Econtrou o caractere %c no indice %d\n", letra, i);
 			ultindice = i;
