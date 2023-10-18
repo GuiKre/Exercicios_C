@@ -3,6 +3,7 @@
 int main(){
 	
 	int inicial, razao, i;
+	
 	printf("Digite o valor inicial: ");
 	scanf("%d", &inicial);
 	

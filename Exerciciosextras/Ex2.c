@@ -17,7 +17,7 @@ int main(){
         }
     }
 
-    if (primo) {
+    if (primo == 1) {
         printf("%d eh um numero primo.\n", numero);
     } else {
         printf("%d nao eh um numero primo.\n", numero);

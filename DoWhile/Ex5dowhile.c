@@ -25,12 +25,7 @@ int main(){
 		printf("MDC atualizado: %d \n", mdc);
 		}
 	}
-	/*do {
-        mdc = num1 % num2;
-        num1 = num2;
-        num2 = mdc;
-    } while (num2 != 0);*/
-
+	
     printf("O MDC dos dois numeros eh: %d\n", mdc);
 	
 	return 0;

@@ -14,9 +14,9 @@ int main(){
 		else if(num < 0){
 			somanegativo = somanegativo + num;
 		}
-		else{
+		/*else{
 			printf("Valor invalido.\n");
-		}
+		}*/
 	}while(num != 0);
 	
 	printf("A soma dos numeros positivos eh: %d\n", somapositivo);
