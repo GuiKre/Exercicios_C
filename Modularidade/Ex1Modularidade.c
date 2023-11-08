@@ -7,7 +7,7 @@
 
 void preenchevetor(int *vetor, int tam, int *cont){
 	
-	float porc;
+	float porc, total;
 	
 	for(int i=0;i<6;i++){
 		cont[i]=0;
@@ -28,7 +28,8 @@ void preenchevetor(int *vetor, int tam, int *cont){
 	}
 	
 	for(int i=0;i<6;i++){
-		porc=(cont[i]/1000.0)*100;
+		total=(float)tam;//casting(forçar que uma variável seja deum tipo diferente)
+		porc=(cont[i]/total)*100;
 		printf("\ncont indice %d: %d ocorrencias -- %.2f%%\n", i, cont[i], porc);
 	}
 }

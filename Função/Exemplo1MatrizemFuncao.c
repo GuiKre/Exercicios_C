@@ -59,8 +59,9 @@ int main() {
   exibirElemento(matriz[NLINHAS - 1][NCOLUNAS - 1]);
 
   /* ------- passagem de elemento por referência ------ */
-  // lembrar de utilizar & na chamada e * na função
-  multiplicarElemento(&matriz[NLINHAS - 1][NCOLUNAS - 1]);
+  // lembrar de utilizar & na chamada e * na funçã
+  o
+  multiplicarElemento(&matriz[2][2]);
 
   return 0;
 }
